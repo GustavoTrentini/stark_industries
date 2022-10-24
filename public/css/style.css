@@ -1,0 +1,26 @@
+.navbar{
+    background-color: white;
+    border-bottom: 2px solid #b41500;
+}
+
+.dataTables_filter, .dataTables_length {
+    margin-bottom: 20px;
+}
+
+.dataTables_paginate {
+    margin-top: 20px;
+}
+
+#imagePreview {
+    width: 180px;
+    height: 180px;
+    background-position: center center;
+    background-size: cover;
+    -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, .3);
+    display: inline-block;
+    background-image: url('http://localhost/images/user.jpg');
+}
+
+#uploadFile{
+  display: none
+}
