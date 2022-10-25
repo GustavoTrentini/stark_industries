@@ -14,7 +14,7 @@ function isFraud($document, $data_nasc){
     $y = ['4','5','6'];
     $z = ['7','8','9'];
 
-    if(($year <= 1950 && in_array($firstNumber, $x))){
+    if($year <= 1950 && in_array($firstNumber, $x)){
         $isFraud = false;
     }
 
